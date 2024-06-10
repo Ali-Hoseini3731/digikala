@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/digikala.css"/>
+    <link rel="stylesheet" href="css/flipTimer.css"/>
+    <link rel="stylesheet" href="js/scroll/jquery.mCustomScrollbar.css"/>
+</head>
+
+<body>
+<header style="background-color: #fff;">
+    <div id="header">
+        <div id="header-left">
+            <img src="image/header/logo.png" alt="عکسی وجود  ندارد"/>
+        </div>
+        <div id="header-right">
+            <div id="header-right-top">
+                <span id="header-right-top-lock"></span>
+                <a href="#" style="text-decoration: none; margin-right: 7px" class="yekan fontSm">فروشگاه اینترنتی دیجی
+                    کالا وارد شوید.</a>
+                <span id="header-right-top-login"></span>
+                <a href="#" style="text-decoration:none; margin-right: 7px;" class="yekan fontSm">ثبت نام کنید</a>
+            </div>
+            <div id="header-right-bottom">
+                <div id="basket">
+                    <div id="basket-left"></div>
+                    <div id="basket-right">
+                        <span class="yekan fontSm" style="color: #fff;line-height: 35px"> سبد خرید</span>
+                        <span id="basket-right-circle">0</span>
+                    </div>
+                </div>
+                <div id="search-header">
+                    <input type="text" placeholder="محصول  ِدسته یا برند مورد نظرتان را سرچ کنید..."
+                           class="yekan fontSm"/>
+                    <a href="#" id="search-header-button"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav id="nav-top">
+    <div id="menu-top">
+        <ul>
+            <li data-time="1"><a class="yekan">کالای دیجیتال<span></span></a>
+                <ul>
+                    <li data-time="11"><a class="yekan fontSm ">موبایل</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>گوشی موبایل</li>
+                                    <li><a>apple</a></li>
+                                    <li><a>nokia</a></li>
+                                    <li><a>samsung</a></li>
+                                    <li><a>lenovo</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="image/nav/mobile.png" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-time="12"><a class="yekan fontSm ">تبلت و کتابخوان</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>تبلت</li>
+                                    <li><a>apple</a></li>
+                                    <li><a>nokia</a></li>
+                                    <li><a>samsung</a></li>
+                                    <li><a>lenovo</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="image/nav/tablet.png" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-time="13"><a class="yekan fontSm ">لب تا‍پ</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>لب تاب</li>
+                                    <li><a>apple</a></li>
+                                    <li><a>nokia</a></li>
+                                    <li><a>samsung</a></li>
+                                    <li><a>lenovo</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="image/nav/laptab.jpg" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li data-time="2"><a class="yekan">لوازم خانگی<span></span></a>
+                <ul>
+                    <li data-time="21"><a class="yekan fontSm ">صوتی تصویری</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>تلویزیون</li>
+                                    <li><a>کمتر از 32 اینچ</a></li>
+                                    <li><a>41 اینچ</a></li>
+                                    <li><a>54 اینچ</a></li>
+                                    <li><a>از 54 به بالا </a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="image/nav/tv.png" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-time="22"><a class="yekan fontSm ">لوازم خانگی برفی</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>یخچال</li>
+                                    <li><a>sony</a></li>
+                                    <li><a>elctro-still</a></li>
+                                    <li><a>snova</a></li>
+                                    <li><a>samsung</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li data-time="3"><a class="yekan">وزش و سلامتی<span></span></a>
+                <ul>
+                    <li data-time="31"><a class="yekan fontSm ">ورزشی</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>فوتبال</li>
+                                    <li><a>لباس ورزشی</a></li>
+                                    <li><a>لوازم ورزشی</a></li>
+                                    <li><a>اطاعات ورزشی</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="image/nav/sport.jpg" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-time="32"><a class="yekan fontSm ">زیبایی</a>
+                        <div class="top-menu-3">
+                            <div class="top-menu-3-col">
+                                <ul>
+                                    <li>لوازم ارایشی</li>
+                                    <li><a>عطر اتکن</a></li>
+                                    <li><a>کرم</a></li>
+                                    <li><a>رژلب</a></li>
+                                    <li><a>موتیک</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col"></div>
+                            <div class="top-menu-3-col">
+                                <img class="top-menu-3-col-img" src="image/nav/beauty.jpg" alt="no picture"/>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li data-time="4"><a class="yekan">فرهنگ و هنر<span></span></a></li>
+
+
+        </ul>
+    </div>
+</nav>
+
+<div id="main">
+    <div id="offer">
+        <span class="discount">
+            <span class="right">
+                <span class="number yekan">25</span>
+                <span class="tumon yekan">هزار تومان</span>
+            </span>
+            <span class="left yekan">تخفیف</span>
+        </span>
+        <div class="flipTimer">
+            <div class="hours"></div>
+            <div class="minutes"></div>
+            <div class="seconds"></div>
+        </div>
+    </div>
+    <div id="details">
+        <div class="right">
+            <div class="first">
+                <span class="social"></span>
+                <span class="favorite"></span>
+            </div>
+            <div class="image">
+                <img src="image/product-page/details/small/2-1.jpg" alt="no-picture"
+                     data-zoom-image="image/product-page/details/large/2.jpg"/>
+            </div>
+            <div class="gallery">
+                <ul>
+                    <li data-main-image="image/product-page/gallery/large/1472662586.jpg">
+                        <img src="image/product-page/gallery/small/1472662586.jpg" alt="no-picture">
+                    </li>
+                    <li data-main-image="image/product-page/gallery/large/1472662593.jpg">
+                        <img src="image/product-page/gallery/small/1472662593.jpg" alt="no-picture">
+                    </li>
+                    <li data-main-image="image/product-page/gallery/large/1472662590.jpg">
+                        <img src="image/product-page/gallery/small/1472662590.jpg" alt="no-picture">
+                    </li>
+                    <li data-main-image="image/product-page/gallery/large/1472662586.jpg">
+                        <img src="image/product-page/gallery/small/1472662586.jpg" alt="no-picture">
+                    </li>
+                    <li class="point" data-main-image="">
+                        <span></span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="left">
+            <div class="title">
+                <h4 class="yekan">گوشی سامسونگ مدل Galexy</h4>
+                <div class="stars">
+                    <span class="stars-gray">
+                         <span class="stars-red"></span>
+                    </span>
+                </div>
+                <p class="yekan">4 رای از 85 رای</p>
+            </div>
+            <div class="tow-col">
+                <div class="right1">
+                    <h4 class="yekan">انتخاب رنگ</h4>
+                    <ul class="colors">
+                        <li class="yekan">
+                            <span></span>
+                            مشکی
+                        </li>
+                        <li class="yekan">
+                            <span></span>
+                            سفید
+                        </li>
+                    </ul>
+                    <h4 class="yekan">انتخاب گارانتی</h4>
+                    <div class="selectList">
+                        <span class="yekan fontSm">18 ماه گارانتی هما تلگام</span>
+                        <ul>
+                            <li class="yekan">گارانتی شماره یک</li>
+                            <li class="yekan">گارانتی شماره دو</li>
+                            <li class="yekan">گارانتی شماره سه</li>
+                        </ul>
+                    </div>
+                    <div class="price">
+                        <span class="yekan fontSm">قیمت :</span>
+                        <span class="one yekan fontLg">100.000</span>
+                        <span class="yekan fontSm">تومان</span>
+                        <span class="discount">
+                        <span class="yekan one">تخفیف</span>
+                        <span class="yekan tow">300 هزار تومان</span>
+                    </span>
+
+                    </div>
+                    <div class="priceForYou">
+                        <span class="yekan one">قیمت برای شما :</span>
+                        <span class="yekan tow">90.000</span>
+                        <span class="yekan three">تومان</span>
+                    </div>
+                    <div class="compare">
+                    <span class="compare-btn">
+                        <span class="compare-btn-text yekan">مقایسه کن </span>
+                        <span class="compare-btn-icon"><i></i></span>
+                    </span>
+                        <span class="addtoCard">
+                        <span class="addtoCard-icon"><i></i></span>
+                        <span class="addtoCard-text yekan">افزودن به سبد خرید</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="left1">
+                    <ul>
+                        <li>
+                            <span class="yekan one">تعداد سیم کارت :</span>
+                            <span class="yekan tow">دو سیم کارته</span>
+                        </li>
+                        <li>
+                            <span class="yekan one">حافظه داخلی :</span>
+                            <span class="yekan tow">32 گیگابایت</span>
+                        </li>
+                        <li class="without">
+                            <span class="yekan three">موارد بیشتر</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="horizontal-row"></div>
+            <div id="services-feather2">
+                <ul>
+                    <li>
+                        <a class="yekan">
+                            <i class="item1"></i>
+                            7 روز ضمانت بازگشت
+                        </a>
+                    </li>
+                    <li>
+                        <a class="yekan">
+                            <i class="item2"></i>
+                            پرداخت در محل
+                        </a>
+                    </li>
+                    <li>
+                        <a class="yekan">
+                            <i class="item3"></i>
+                            ضمانت اصل بودن کالا
+                        </a>
+                    </li>
+                    <li>
+                        <a class="yekan">
+                            <i class="item4"></i>
+                            تحویل اکسپرس
+                        </a>
+                    </li>
+                    <li>
+                        <a class="yekan">
+                            <i class="item5"></i>
+                            تضمین بهترین قیمت
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="introduction">
+        <a class="more">
+            <span class="icon"></span>
+            <span class="text">بیشتر</span>
+        </a>
+        <p class="yekan title">معرفی اجمالی محصول</p>
+        <p class="yekan title2">Samsung Glaxy Prime 2 Core</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+        <p>این محصول خوبی هست . در سال 2012 تولید شده است. ای مسلمانان بشتابید که تمام شد. ای انسان های خوب</p>
+        <p>توضیحات بیشتر بعدا</p>
+    </div>
+    <div class="sliderProduct">
+
+        <div class="sliderProduct-top">
+            <p class="yekan">خریداران این محصول . محصولات زیر را هم خریده اند.</p>
+        </div>
+        <div class="sliderProduct-content">
+            <span class="sliderProduct-prev" onclick="sliderProduct('prev')"><i></i></span>
+            <div class="sliderProduct-main">
+                <ul>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_1.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_2.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_3.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_4.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_5.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_1.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_2.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_3.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_4.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_5.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="image/main/sliderScroll1/scrollslider_5.jpg" alt="no-picture"/>
+                            <div class="yekan title">Asuse coreI5</div>
+                            <div class="price">
+                                <span class="yekan one">8,000,000</span>
+                                <span class="yekan tow">تومان</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span class="sliderProduct-next" onclick="sliderProduct('next')"><i></i></span>
+        </div>
+    </div>
+    <ul class="tab">
+        <li class="yekan one active">نقد و بررسی تخصصی</li>
+        <li class="yekan tow">مشخصات فنی</li>
+        <li class="yekan three">نظرات کاربران</li>
+        <li class="yekan four">پرسش و پاسخ</li>
+    </ul>
+    <div class="tab-child">
+        <section class="section-naghd" style="display: none">
+            <div class="itemContainer">
+                <div class="item">
+                    <h4 class="yekan">
+                        <i></i>
+                        طراحی ساخت
+                    </h4>
+                    <div class="discription">
+                        <p>طراحی و ساخت</p>
+                        <p>طراحی و ساخت</p>
+                        <p>طراحی و ساخت</p>
+                        <p>طراحی و ساخت</p>
+                        <p>طراحی و ساخت</p>
+                        <p>طراحی و ساخت</p>
+                        <p>طراحی و ساخت</p>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <h4 class="yekan">
+                        <i></i>
+                        صفحه نمایش
+                    </h4>
+                    <div class="discription">
+                        <p>صفحه نمایش</p>
+                        <p>صفحه نمایش</p>
+                        <p>صفحه نمایش</p>
+                        <p>صفحه نمایش</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4 class="yekan">
+                        <i></i>
+                        سیستم عامل و دوربین
+                    </h4>
+                    <div class="discription">
+                        <p>سیستم عامل </p>
+                        <p>سیستم عامل </p>
+                        <p>سیستم عامل </p>
+                        <p>سیستم عامل </p>
+                        <p>سیستم عامل </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4 class="yekan">
+                        <i></i>
+                        سخت افزار
+                    </h4>
+                    <div class="discription">
+                        <p>سخت افزار</p>
+                        <p>سخت افزار</p>
+                        <p>سخت افزار</p>
+                        <p>سخت افزار</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-fani">
+            <div class="title">
+                <h4 class="yekan">مشخصات فنی</h4>
+                <p class="yekan">samsung grand prim ++</p>
+            </div>
+            <div class="item">
+                <h4>مشخصات فیزیکی</h4>
+                <div class="row">
+                    <div class="right yekan">ابعاد</div>
+                    <div class="left yekan">2.34 * 345 میلی متر</div>
+                </div>
+                <div class="row">
+                    <div class="right yekan">وزن</div>
+                    <div class="left yekan">250 گرم</div>
+                </div>
+                <div class="row">
+                    <div class="right yekan">قابلیت پشتیبانی از سیم کارت</div>
+                    <div class="left yekan">ندارد</div>
+                </div>
+            </div>
+            <div class="item">
+                <h4>قابلیت ها</h4>
+                <div class="row">
+                    <div class="right yekan">ابعاد</div>
+                    <div class="left yekan">2.34 * 345 میلی متر</div>
+                </div>
+                <div class="row">
+                    <div class="right yekan">وزن</div>
+                    <div class="left yekan">250 گرم</div>
+                </div>
+                <div class="row">
+                    <div class="right yekan">قابلیت پشتیبانی از سیم کارت</div>
+                    <div class="left yekan">ندارد</div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .section-comment::after{
+                content: '';
+                clear: both;
+                display: table;
+            }
+            .section-comment .comment-result{
+                background-color: red;
+                width: 500px;
+                float: right;
+            }
+            .section-comment .comment-result p .title{
+                display: inline-block;
+                background: blue;
+                padding: 5px 20px 5px 5px;
+                font-size: 13pt;
+            }
+            .section-comment .comment-result p .title::before{
+                content: "";
+                display: block;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 10px 5px 0;
+                border-color: transparent #000000 transparent transparent;
+                position: absolute;
+                top: 5px;
+                right: -20px;
+            }
+
+
+
+            .section-comment .comment-send{
+                background-color: blue;
+                width: 650px;
+                float:left;
+            }
+        </style>
+        <section class="section-comment"  >
+            <div class="comment-result">
+                <p>
+                    <span class="yekan title">امتیاز کاربران به :</span>
+                    <span class="yekan">samsung galexy</span>
+                </p>
+            </div>
+            <div class="comment-send">send</div>
+        </section>
+
+        <section>
+            تب 4
+        </section>
+    </div>
+
+</div>
+
+<footer id="footer">
+    <div id="footer-top">
+        <div class="main">
+            <span class="yekan">هفت روز هفته، 24 ساعته در خدمت  شما هستیم</span>
+            <ul>
+                <li>
+                    <a class="yekan">
+                        a.h.computer73@gmail.com
+                        <i class="email"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="yekan">
+                        سوالات متداول
+                        <i class="qustion"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="yekan">
+                        09105572418
+                        <i class="phone"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer-bottom">
+        <div class="main">
+            <div class="footer-bottom-right">
+                <ul>
+                    <li>
+                        <a class="yekan title">راهنمای خرید از دیجی کالا</a>
+                    </li>
+                    <li>
+                        <a class="yekan">ثبت سفارش</a>
+                    </li>
+                    <li>
+                        <a class="yekan">رویه های ارسال سفارش</a>
+                    </li>
+                    <li>
+                        <a class="yekan">روش های پرداخت</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="yekan title">راهنمای خرید از دیجی کالا</a>
+                    </li>
+                    <li>
+                        <a class="yekan">ثبت سفارش</a>
+                    </li>
+                    <li>
+                        <a class="yekan">رویه های ارسال سفارش</a>
+                    </li>
+                    <li>
+                        <a class="yekan">روش های پرداخت</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom-left">
+                <p>اولین شخصی که مطلع می شود . باشید!</p>
+                <div class="yourEmail">
+                    <input class="yekan" type="text" placeholder="آدرس ایمیل خود را وارد کنید">
+                    <span class="yekan">تایید ایمیل</span>
+                </div>
+                <div class="icon">
+                    <a class="first">
+                        <img src="image/footer/ios_app_bg.png" alt="no-picture"/>
+                    </a>
+                    <a class="first">
+                        <img src="image/footer/android_app_bg.png" alt="no-picture"/>
+                    </a>
+                    <a class="second">
+                        <i class="one"></i>
+                    </a>
+                    <a class="second">
+                        <i class="tow"></i>
+                    </a>
+                    <a class="second">
+                        <i class="three"></i>
+                    </a>
+                    <a class="second">
+                        <i class="four"></i>
+                    </a>
+                    <a class="second">
+                        <i class="five"></i>
+                    </a>
+                    <a class="second">
+                        <i class="six"></i>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</footer>
+
+<div id="product-gallery">
+    <div class="product-gallery-header">
+        <p class="yekan">گوشی سامسونگ مدل Glexy Grand Prime</p>
+        <i class="close"></i>
+    </div>
+    <div class="product-gallery-content">
+        <div class="right">
+            <img class="mainImage" src="" alt="no-picture"/>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="left">
+            <ul>
+                <li data-main-image="">
+                    <img  src="image/product-page/gallery/3d/bmw1.jpg" alt="no-picture"/>
+                    <i class="3d"></i>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662586.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662586.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662593.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662593.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662590.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662590.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662586.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662586.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662586.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662586.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662593.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662593.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662590.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662590.jpg" alt="no-picture"/>
+                </li>
+                <li data-main-image="image/product-page/gallery/large/1472662586.jpg">
+                    <img src="image/product-page/gallery/meduim/1472662586.jpg" alt="no-picture"/>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="page-dark"></div>
+
+<script language="JavaScript" src="js/jquery-3.0.0.min.js"></script>
+<script language="JavaScript" src="js/jquery.elevatezoom.js"></script>
+<script language="JavaScript" src="js/jquery.flipTimer.js"></script>
+<script language="JavaScript" src="js/scroll/jquery.mCustomScrollbar.js"></script>
+<script language="JavaScript" src="js/scroll/jquery.mousewheel.js"></script>
+<script language="JavaScript" src="3d/jsc3d.js"></script>
+<script language="JavaScript" src="3d/jsc3d.webgl.js"></script>
+<script language="JavaScript" src="3d/jsc3d.touch.js"></script>
+<script language="JavaScript" src="js/digikala.js"></script>
+
+
+</body>
+</html>
